@@ -6,7 +6,7 @@ const rejectBtn =
     document.querySelector(".rejectButton"); 
   
 acceptBtn.onclick = () => { 
-    document.cookie = "CookieBy=GeeksForGeeks; max-age="
+    document.cookie = "CookieBy=EzEgySüti:); max-age="
         + 60 * 60 * 24; 
     if (document.cookie) { 
         consentBox.classList.add("hide"); 
