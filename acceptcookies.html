@@ -6,11 +6,16 @@
       </title> 
     <link rel="stylesheet"
           href="cookie_style.css"> 
+          <script>
+            function acceptCookies() {
+    location.replace("index.html")
+  }
+          </script>
 </head> 
 <body> 
     <div id="consentBox"> 
         <img src= 
-"https://media.geeksforgeeks.org/wp-content/uploads/20231115025707/gfg.png"
+"https://library.kissclipart.com/20190919/sye/kissclipart-chocolate-chip-cookie-chocolate-chip-cookie-clip-a-c94a89537545540e.png"
              alt="Embléma"> 
         <div id="consentContent"> 
             <header id="consentHeader"> 
@@ -20,7 +25,8 @@
               Sütiket használunk az oldalunk megfelelő
               és élvezetes működése érdekében.
               <br>A szükséges sütik engedélyezve maradnak!
-            </p> 
+            </p>
+            <button onclick="acceptCookies()">Replace document</button> 
             <div class="buttons"> 
                 <button class="consentButton"> 
                       Elfogadás

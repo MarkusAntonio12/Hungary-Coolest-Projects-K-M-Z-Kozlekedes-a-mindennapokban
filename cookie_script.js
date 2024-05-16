@@ -23,6 +23,6 @@ rejectBtn.onclick = () => {
 }; 
   
 let checkCookie =  
-    document.cookie.indexOf("CookieBy=GeeksForGeeks"); 
+    document.cookie.indexOf("CookieBy=EzEGySüti:)"); 
 checkCookie !== -1 ? consentBox.classList.add("hide") : 
     consentBox.classList.remove("hide");
